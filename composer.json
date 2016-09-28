@@ -1,0 +1,14 @@
+{
+    "name": "kof/psr7",
+    "description": "PSR-7 message implementation，more UploadedFile Adapter",
+    "type": "library",
+    "require": {
+        "guzzlehttp/psr7": "^1.3.1",
+        "aliyuncs/oss-sdk-php": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kof\\Psr7\\": "src/"
+        }
+    }
+}
